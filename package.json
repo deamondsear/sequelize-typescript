@@ -1,7 +1,7 @@
 {
-  "name": "sequelize-typescript",
+  "name": "sequelize-typescript-fork",
   "version": "2.1.6",
-  "description": "Decorators and some other features for sequelize",
+  "description": "Fork of sequelize-typescript (https://github.com/sequelize/sequelize-typescript) with updated glob (fixed memeory leaking)",
   "scripts": {
     "build": "tsc",
     "test": "mocha test/**/*.spec.ts",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RobinBuschmann/sequelize-typescript.git"
+    "url": "https://github.com/deamondsear/sequelize-typescript.git"
   },
   "keywords": [
     "orm",
@@ -30,17 +30,17 @@
     "postgres",
     "mssql"
   ],
-  "author": "Robin Buschmann",
+  "author": "@deamondsear",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RobinBuschmann/sequelize-typescript/issues"
+    "url": "https://github.com/deamondsear/sequelize-typescript/issues"
   },
-  "homepage": "https://github.com/RobinBuschmann/sequelize-typescript#readme",
+  "homepage": "https://github.com/deamondsear/sequelize-typescript#readme",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "browser": "dist/browser/index.js",
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=18.0.0"
   },
   "release-it": {
     "git": {
@@ -93,7 +93,7 @@
     "report-dir": "./coverage"
   },
   "dependencies": {
-    "glob": "7.2.0"
+    "glob": "11.0.3"
   },
   "devDependencies": {
     "@commitlint/cli": "17.2.0",
