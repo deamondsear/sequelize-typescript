@@ -1,11 +1,8 @@
-
-
 ## [2.1.6](https://github.com/RobinBuschmann/sequelize-typescript/compare/v2.1.5...v2.1.6) (2023-11-24)
-
 
 ### Bug Fixes
 
-* deny modifying the object prototype ([#1698](https://github.com/RobinBuschmann/sequelize-typescript/issues/1698)) ([5ce8afd](https://github.com/RobinBuschmann/sequelize-typescript/commit/5ce8afdd1671b08c774ce106b000605ba8fccf78))
+- deny modifying the object prototype ([#1698](https://github.com/RobinBuschmann/sequelize-typescript/issues/1698)) ([5ce8afd](https://github.com/RobinBuschmann/sequelize-typescript/commit/5ce8afdd1671b08c774ce106b000605ba8fccf78))
 
 # Changelog
 

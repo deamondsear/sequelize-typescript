@@ -217,8 +217,8 @@ from sequelize are valid):
 If you're in love with decorators: _sequelize-typescript_ provides some more of them. The following decorators can be
 used together with the @Column annotation to make some attribute options easier available:
 
-| Decorator                         | Description                                      | Options                                                                                                                          |
-| --------------------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| Decorator                         | Description                                      | Options                                                                                                                     |
+| --------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
 | `@AllowNull(allowNull?: boolean)` | sets `attribute.allowNull` (default is `true`)   |
 | `@AutoIncrement`                  | sets `attribute.autoIncrement=true`              |
 | `@Unique(options? UniqueOptions)` | sets `attribute.unique=true`                     | [UniqueOptions](https://github.com/sequelize/sequelize-typescript/blob/master/src/model/column/column-options/unique.ts#L3) |

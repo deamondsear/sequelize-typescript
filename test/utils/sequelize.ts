@@ -1,5 +1,5 @@
-import { Sequelize } from '../../src/sequelize/sequelize/sequelize';
 import { ModelOptions } from 'sequelize';
+import { Sequelize } from '../../src/sequelize/sequelize/sequelize';
 import { SequelizeOptions } from '../../src/sequelize/sequelize/sequelize-options';
 
 export function createSequelize(partialOptions: Partial<SequelizeOptions>): Sequelize;

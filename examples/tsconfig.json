@@ -11,13 +11,6 @@
     "skipLibCheck": true,
     "lib": ["es2015"]
   },
-  "include": [
-    "repository-mode",
-    "simple"
-  ],
-  "exclude": [
-    "../node_modules",
-    "../src",
-    "../src/index.ts"
-  ]
+  "include": ["repository-mode", "simple"],
+  "exclude": ["../node_modules", "../src", "../src/index.ts"]
 }
